@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.linting.flake8Enabled": false,
+    "cornflakes.linter.executablePath": "path/to/venvs/myvenv/bin/flake8"
+  }
+}

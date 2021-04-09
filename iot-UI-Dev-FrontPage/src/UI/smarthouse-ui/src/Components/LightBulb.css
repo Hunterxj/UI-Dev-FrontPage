@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+
+
+.btn:hover {
+transform: translateY(-3px)
+
+}
+
+.btn--primary--solid{
+    background-color:var(--primary);
+    color: var(--white);
+    border: none
+
+}
+
+/*sets the default button attributes for lightbulbs */
+.btn--default{
+    height: 100px;
+    width: 100px;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+    
+}
+

@@ -1,0 +1,151 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "python.pythonPath": "/home/willwatts/.pyenv/versions/3.9.1/envs/api-env/bin/python",
+  "cornflakes.executablePath": "home/willwatts/.pyenv/versions/3.9.1/envs/api-env/bin/flake8",
+  "cornflakes.linter.run": "onType",
+  "editor.renderControlCharacters": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.folders.theme": "specific",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "angular.experimental-ivy": true,
+  "remote.SSH.remotePlatform": {
+    "moat.cis.uab.edu": "linux"
+  },
+  "git.ignoreLegacyWarning": true,
+  "remote.SSH.showLoginTerminal": true,
+  "csharpextensions.privateMemberPrefix": "_",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+
+  "workbench.colorTheme": "SynthWave '84",
+  "java.configuration.checkProjectSettingsExclusions": false,
+  "java.semanticHighlighting.enabled": true,
+  "cSpell.userWords": [
+    "Contextifyer",
+    "Datepicker",
+    "Paginator",
+    "Sidenav",
+    "contextifier",
+    "cuda",
+    "datasource",
+    "downlevel",
+    "ngstack",
+    "numpy",
+    "optim",
+    "theming"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.languageServer": "Microsoft",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.mouseWheelZoom": true,
+  "editor.formatOnSave": false,
+  "diffEditor.codeLens": false,
+  "python.maxNumberOfProblems": 1000,
+  "vsintellicode.features.python.deepLearning": "enabled",
+  "autoDocstring.guessTypes": true,
+  "autoDocstring.quoteStyle": "'''",
+  "autoDocstring.startOnNewLine": true,
+  "workbench.activityBar.visible": true,
+  "diffEditor.renderSideBySide": false,
+  "cSpell.enabled": false,
+  "todo-tree.tree.showScanModeButton": true,
+  "mssql.connections": [
+    {
+      "server": "{{put-server-name-here}}",
+      "database": "{{put-database-name-here}}",
+      "user": "{{put-username-here}}",
+      "password": "{{put-password-here}}"
+    }
+  ],
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "IMPORTANT",
+    "DONE",
+    "REFACTOR",
+    "ENDPOINT",
+    "REGION"
+  ],
+  "todo-tree.highlights.useColourScheme": true,
+  "todo-tree.type": "text-and-comment",
+  "todo-tree.highlights.backgroundColourScheme": [
+    "red",
+    "orange",
+    "yellow",
+    "#ffebcc",
+    "#993333",
+    "seagreen",
+    "#ff0066",
+    "#3366cc",
+    "#993366"
+  ],
+  "todo-tree.highlights.foregroundColourScheme": [
+    "white",
+    "black",
+    "black",
+    "navy",
+    "antiquewhite",
+    "#ffe6f0",
+    "#ffffcc",
+    "beige",
+    "antiquewhite"
+  ],
+  "darkSynthwave84.brightness": 0.99,
+  "synthwave84.brightness": 0.99,
+  "workbench.colorCustomizations": {
+    "terminal.foreground": "#55fb76",
+    "terminal.background": "#121212"
+  },
+  "debug.javascript.debugByLinkOptions": "always",
+
+  "gitlens.views.remotes.branches.layout": "list",
+
+  "git.autofetch": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "git.enableSmartCommit": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "yaml.schemas": {
+    "file:///Users/willwatts/.vscode/extensions/atlassian.atlascode-2.8.5/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "js/ts.implicitProjectConfig.experimentalDecorators": true,
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "editor.suggestSelection": "first",
+  "python.terminal.activateEnvironment": true,
+  "editor.formatOnPaste": true,
+  "python.formatting.provider": "autopep8",
+  "python.formatting.autopep8Args": ["--max-line-length", "70", "--aggressive"],
+
+  // if using flake8 (uncomment below lines and comment above block of settings of pylint
+  // "python.linting.pylintEnabled": false,
+  // "python.linting.flake8Enabled": true,
+  // "python.linting.flake8Path": "<your-env-path>/bin/flake8",
+  // "python.linting.flake8Args": [
+  //   "--max-line-length=130"
+  // ],
+  // to enable sort imports on save
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": false
+  },
+  // to add environment vars while opening a new vscode terminal (name:val)
+  "[python]": {
+    "editor.tabSize": 4
+  }
+}
